@@ -1,0 +1,25 @@
+name       : gourmet
+version    : 0.17.4
+release    : 1
+source     :
+    - https://github.com/thinkle/gourmet/archive/0.17.4.tar.gz : 13edd3b9c3a3507d20b80cff0f88183ac7979b720e7577290815ffacca097fe3
+license    : GPL-2.0
+component  : desktop
+summary    : Gourmet Recipe Manager is a manager, editor, and organizer for recipes
+description: |
+    Gourmet Recipe Manager is a manager, editor, and organizer for recipes.
+    It has a plugin architecture which allows you to enable extensions to Gourmet's base functionality.
+    For example, there is a nutritional plugin that allows Gourmet to help you calculate nutritional information for any recipe.
+    There are also a wide variety of import and export plugins that let Gourmet read and write recipes in various formats.
+builddeps  :
+    - python-distutils-extra
+rundeps    :
+    - python-beautifulsoup4
+    - python-gobject2
+    - python-pillow
+    - python-reportlab
+    - python-sqlalchemy
+build      : |
+    %python_setup
+install    : |
+    %python_install
