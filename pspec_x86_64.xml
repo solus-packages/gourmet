@@ -2,10 +2,10 @@
     <Source>
         <Name>gourmet</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>sunnyflunk@gmail.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-or-later</License>
         <PartOf>desktop</PartOf>
         <Summary xml:lang="en">Gourmet Recipe Manager is a manager, editor, and organizer for recipes</Summary>
         <Description xml:lang="en">Gourmet Recipe Manager is a manager, editor, and organizer for recipes.
@@ -25,7 +25,7 @@ There are also a wide variety of import and export plugins that let Gourmet read
 </Description>
         <PartOf>desktop</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/gourmet</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/gourmet-0.17.4-py2.7.egg-info</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/gourmet/GourmetRecipeManager.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/gourmet/GourmetRecipeManager.pyc</Path>
@@ -440,20 +440,130 @@ There are also a wide variety of import and export plugins that let Gourmet read
             <Path fileType="library">/usr/lib/python2.7/site-packages/gourmet/version.pyc</Path>
             <Path fileType="data">/usr/share/appdata/gourmet.appdata.xml</Path>
             <Path fileType="data">/usr/share/applications/gourmet.desktop</Path>
-            <Path fileType="doc">/usr/share/doc</Path>
-            <Path fileType="data">/usr/share/gourmet</Path>
+            <Path fileType="doc">/usr/share/doc/gourmet/FAQ</Path>
+            <Path fileType="doc">/usr/share/doc/gourmet/LICENSE</Path>
+            <Path fileType="data">/usr/share/gourmet/ABBREV.txt</Path>
+            <Path fileType="data">/usr/share/gourmet/FOOD_DES.txt</Path>
+            <Path fileType="data">/usr/share/gourmet/WEIGHT.txt</Path>
+            <Path fileType="data">/usr/share/gourmet/icons/48x48/apps/gourmet.png</Path>
+            <Path fileType="data">/usr/share/gourmet/icons/gourmet.ico</Path>
+            <Path fileType="data">/usr/share/gourmet/icons/scalable/apps/gourmet.svg</Path>
+            <Path fileType="data">/usr/share/gourmet/images/AddToShoppingList.png</Path>
+            <Path fileType="data">/usr/share/gourmet/images/gold_star.png</Path>
+            <Path fileType="data">/usr/share/gourmet/images/half_gold_star.png</Path>
+            <Path fileType="data">/usr/share/gourmet/images/no_star.png</Path>
+            <Path fileType="data">/usr/share/gourmet/images/reccard.png</Path>
+            <Path fileType="data">/usr/share/gourmet/images/reccard_edit.png</Path>
+            <Path fileType="data">/usr/share/gourmet/images/splash.png</Path>
+            <Path fileType="data">/usr/share/gourmet/images/splash.svg</Path>
+            <Path fileType="data">/usr/share/gourmet/nutritional_data_sr_version</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/browse_plugin.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/duplicate_finder.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/email.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/field_editor.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/import_export/archive.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/import_export/gxml.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/import_export/html.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/import_export/krecipe_plugin.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/import_export/mastercook_plugin.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/import_export/mealmaster.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/import_export/mycookbook_plugin.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/import_export/pdf.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/import_export/plaintext.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/import_export/webimport.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/import_export/website_import.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/key_editor.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/listsaver.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/nutritional_information.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/python_shell.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/shopping_associations.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/spellcheck.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/unit_converter.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/unit_display_prefs.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/plugins/utf16.gourmet-plugin</Path>
+            <Path fileType="data">/usr/share/gourmet/recipe.dtd</Path>
+            <Path fileType="data">/usr/share/gourmet/sound/error.wav</Path>
+            <Path fileType="data">/usr/share/gourmet/sound/phone.wav</Path>
+            <Path fileType="data">/usr/share/gourmet/sound/warning.wav</Path>
+            <Path fileType="data">/usr/share/gourmet/style/default.css</Path>
+            <Path fileType="data">/usr/share/gourmet/ui/app.ui</Path>
+            <Path fileType="data">/usr/share/gourmet/ui/batchEditor.ui</Path>
+            <Path fileType="data">/usr/share/gourmet/ui/databaseChooser.ui</Path>
+            <Path fileType="data">/usr/share/gourmet/ui/generic_importer.ui</Path>
+            <Path fileType="data">/usr/share/gourmet/ui/preferenceDialog.ui</Path>
+            <Path fileType="data">/usr/share/gourmet/ui/recCardDescriptionEditor.ui</Path>
+            <Path fileType="data">/usr/share/gourmet/ui/recCardDisplay.ui</Path>
+            <Path fileType="data">/usr/share/gourmet/ui/recCardIngredientsEditor.ui</Path>
+            <Path fileType="data">/usr/share/gourmet/ui/recipe_index.ui</Path>
+            <Path fileType="data">/usr/share/gourmet/ui/shopCatEditor.ui</Path>
+            <Path fileType="data">/usr/share/gourmet/ui/timerDialog.ui</Path>
+            <Path fileType="data">/usr/share/gourmet/ui/valueEditor.ui</Path>
             <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/gourmet.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/gourmet.svg</Path>
-            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="localedata">/usr/share/locale/af/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/az/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bg/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/bs/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ca/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/cs/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/da/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de_AT/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/el/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_AU/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_CA/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_GB/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eo/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/et/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fa/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fi/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ga/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/gl/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/he/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hi/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hr/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/id/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/is/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lv/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/mk/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ms/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl_BE/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/oc/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sk/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sl/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/th/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/tr/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/yi/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_HK/LC_MESSAGES/gourmet.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/gourmet.mo</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2016-11-02</Date>
+        <Update release="3">
+            <Date>2018-12-13</Date>
             <Version>0.17.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>sunnyflunk@gmail.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
