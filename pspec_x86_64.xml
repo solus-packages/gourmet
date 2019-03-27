@@ -2,8 +2,8 @@
     <Source>
         <Name>gourmet</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harveydev@protonmail.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop</PartOf>
@@ -13,7 +13,7 @@ It has a plugin architecture which allows you to enable extensions to Gourmet&ap
 For example, there is a nutritional plugin that allows Gourmet to help you calculate nutritional information for any recipe.
 There are also a wide variety of import and export plugins that let Gourmet read and write recipes in various formats.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>gourmet</Name>
@@ -558,12 +558,12 @@ There are also a wide variety of import and export plugins that let Gourmet read
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2018-12-13</Date>
+        <Update release="4">
+            <Date>2019-03-27</Date>
             <Version>0.17.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Troy Harvey</Name>
+            <Email>harveydev@protonmail.com</Email>
         </Update>
     </History>
 </PISI>

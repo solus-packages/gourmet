@@ -1,6 +1,6 @@
 name       : gourmet
 version    : 0.17.4
-release    : 3
+release    : 4
 source     :
     - https://github.com/thinkle/gourmet/archive/0.17.4.tar.gz : 13edd3b9c3a3507d20b80cff0f88183ac7979b720e7577290815ffacca097fe3
 license    : GPL-2.0-or-later
@@ -20,6 +20,9 @@ rundeps    :
     - python-pillow
     - python-reportlab
     - python-sqlalchemy
+setup      : |
+    %patch -p1 < $pkgfiles/bs4-port.patch
+    %patch -p1 < $pkgfiles/gourmet-pillow.patch
 build      : |
     %python_setup
 install    : |
